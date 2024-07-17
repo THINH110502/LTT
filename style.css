@@ -1,0 +1,69 @@
+.contrainer{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #257bec, #e49f9f);
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.from-control{
+    display: flex;
+}
+
+#content{
+    flex: 1;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+.from-control button{
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background: #117b83;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: none;
+}
+#List-task{
+    width: auto;
+}
+#List-task h4{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#List-task ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#List-task ul li{
+    display: flex;
+    background: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 5px;
+    justify-content: space-around;
+}
+#List-task ul li div{
+    width: 80%;
+   
+}
+#List-task ul li a {
+    text-decoration: none;
+    display: block;
+    margin-right: 8px;
+    color: #333;
+    padding: 5px;
+}
+#List-task ul li a:nth-of-type(2){
+    background: red;
+    border-radius: 5px;
+}
